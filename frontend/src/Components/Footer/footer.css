@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background: black;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.social li{
+    margin: 0 10px;
+}
+
+.social li:hover{
+    color: aqua;
+}
+
+.footer-bottom {
+    margin-bottom: 10px;
+}

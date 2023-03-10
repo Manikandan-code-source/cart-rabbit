@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Google sans Regular";
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li .data{
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li .log{
+    display: block;
+    color: white;
+    background : none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 6px;
+}
+
+.nav-bar ul li .sign{
+    display: block;
+    color: white;
+    background : none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 6px;
+}
+
+
+
+@media only screen and (max-width : 1320px) {
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+    header{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width : 900px) {
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+    .icon .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+    }
+    .nav-bar{
+        height: 450px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: black;
+    }
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0px auto;
+        text-align: center;
+        
+    }
+
+    .nav-bar ul li .data{
+        margin-bottom: 12px;
+    }
+    .nav-bar ul li .log{
+        margin-bottom: 12px;
+    }
+    .nav-bar ul li .sign{
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,78 @@
+.dash-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  height: 65vh;
+  width: 70vw;
+  background-image: url("./dashBG.jpg");
+  background-size: cover;
+}
+
+.para-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 25vw;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+}
+
+.dash-content {
+  height: 12vh;
+  width: 31.7vw;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.dash-btn{
+ margin-left: 150px;
+}
+
+.dash-heading {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+
+
+.dash-btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-house-cus {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.btn-house-cus:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}

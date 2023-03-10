@@ -1,0 +1,142 @@
+.border-box {
+  height: 55vh;
+  width: 58vw;
+  border: 2px solid white;
+  color: wheat;
+  padding: 10px 20px;
+  overflow: scroll;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border-box .heading {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.required{
+  margin: 3px 0;
+  color: aqua;
+}
+
+.content {
+  margin: 5px;
+}
+
+.textfeild {
+  width: 30vw;
+  background-color: white;
+  color: red;
+}
+
+.nextbtn {
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+  width: 70px;
+  height: 40px;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.backbtn {
+   width: 70px;
+  height: 40px;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.backbtnsq{
+  position: absolute;
+  right: 80%;
+  bottom: 10%;
+  width: 70px;
+  height: 40px;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.savebtnsq{
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+  width: 70px;
+  height: 40px;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.savebtn {
+   width: 70px;
+  height: 40px;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.conditionalbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rooms-heading{
+  margin : 10px 0;
+}
+
+.align-remove{
+  display: flex;
+  align-items: center;
+  margin : 15px 0;
+}
+
+.btn-remove{
+
+  width: 70px;
+  height: 40px;
+  margin: 30px ;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.sqcontainer{
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

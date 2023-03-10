@@ -1,0 +1,81 @@
+.container .cords {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  height: 65vh;
+  width: 70vw;
+  background-color: #181719;
+}
+
+.container .backbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 30px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  background: grey;
+}
+
+
+.Houseowner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 20vw;
+  background: #1f1f1f;
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+.customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 20vw;
+  background: #1f1f1f;
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.Houseowner h1 {
+  margin: 15px 0;
+}
+
+.Houseowner p {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.customer h1 {
+  margin: 15px 0;
+}
+
+.customer p {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.customer {
+  height: 50vh;
+  width: 20vw;
+  background: #1f1f1f;
+}
+
